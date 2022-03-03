@@ -1,3 +1,31 @@
-.greeting-message {
-  font-size: 80px;
+.banner {
+  text-align: center;
+  background-color: #aad8d3;
+  color: #393e46;
+  padding: 80px;
+  font-size: 50px;
+}
+
+.widget {
+  border: 1px solid #aad8d3;
+  border-radius: 10px;
+}
+
+.widgets-grid {
+  margin-top: 20px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 10px;
+  row-gap: 10px;
+  position: absolute;
+  top: 250px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+@media (max-width: 850px) {
+  .widgets-grid {
+    grid-template-columns: 1fr 1fr;
+  }
 }
