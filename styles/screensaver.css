@@ -1,7 +1,5 @@
 .quick-access {
   height: 100%;
-  font-family: "Montserrat", "Arial";
-  color: #00adb5;
   display: flex;
   flex-direction: column;
   justify-content: center;
