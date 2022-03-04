@@ -1,9 +1,10 @@
 .quick-access {
-  height: 100%;
+  height: 90%;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  color: #00adb5;
 }
 
 .time {
@@ -14,4 +15,17 @@
 .date {
   display: inline-block;
   font-size: 25px;
+}
+
+a:active + .quick-access {
+  animation: swipe-up 500ms ease-out 0 1;
+}
+
+@keyframes swipe-up {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(100%);
+  }
 }
