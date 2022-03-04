@@ -12,13 +12,14 @@
 }
 
 .widgets-grid {
-  margin-top: 20px;
+  padding-top: 240px;
+  padding-bottom: 10px;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   column-gap: 10px;
   row-gap: 10px;
   position: absolute;
-  top: 250px;
+  top: 0;
   bottom: 0;
   left: 0;
   right: 0;
