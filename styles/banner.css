@@ -6,7 +6,7 @@
 }
 
 .square {
-  background-color: #aad8d3;
+  background-color: #ff0000;
   height: 100%;
   border-radius: 15px;
   animation: slide-in-from-left 1000ms ease-out 0ms 1;
