@@ -6,7 +6,7 @@
 }
 
 .square {
-  background-color: radial-gradient(at top, #43d609, #c76210);
+  background-image: radial-gradient(at top, #43d609, #c76210);
   height: 100%;
   border-radius: 15px;
   animation: slide-in-from-left 1000ms ease-out 0ms 1;
